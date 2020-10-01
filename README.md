@@ -1,4 +1,4 @@
-# submission_flutter
+#  Belajar Membuat Aplikasi Flutter untuk Pemula Submission
 
 A new Flutter project.
 
