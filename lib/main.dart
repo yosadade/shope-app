@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:submission_flutter/constants.dart';
-import 'package:submission_flutter/screens/home/home_screen.dart';
+import 'package:submission_flutter/constant/constants.dart';
+import 'package:submission_flutter/screens/login/login_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }

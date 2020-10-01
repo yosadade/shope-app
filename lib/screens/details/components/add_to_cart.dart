@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:submission_flutter/constant/constants.dart';
 import 'package:submission_flutter/models/Product.dart';
-
-import '../../../constants.dart';
 
 class AddToCart extends StatelessWidget {
   const AddToCart({

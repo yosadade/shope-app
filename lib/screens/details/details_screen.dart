@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:submission_flutter/constants.dart';
+import 'package:submission_flutter/constant/constants.dart';
 import 'package:submission_flutter/models/Product.dart';
 import 'package:submission_flutter/screens/details/components/body.dart';
 

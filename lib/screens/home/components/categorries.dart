@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
+import 'package:submission_flutter/constant/constants.dart';
 
 // We need satefull widget for our categories
 
@@ -10,7 +10,7 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Hand bag", "Jewellery", "Footwear", "Dresses"];
+  List<String> categories = ["Shoes", "Jewellery", "T Shirt", "Clotes"];
   // By default our first item will be selected
   int selectedIndex = 0;
   @override

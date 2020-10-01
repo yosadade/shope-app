@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:submission_flutter/constants.dart';
-
+import 'package:submission_flutter/constant/constants.dart';
 
 class Categories extends StatefulWidget {
   @override
@@ -8,7 +7,7 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Hand bag", "Jewellery", "Footwear", "Dresses"];
+  List<String> categories = ["Shoes", "T Shirt", "Jackets", "Accesories"];
 
   int selectedIndex = 0;
   @override

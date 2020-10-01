@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:submission_flutter/constants.dart';
+import 'package:submission_flutter/constant/constants.dart';
 import 'package:submission_flutter/models/Product.dart';
 import 'package:submission_flutter/screens/details/details_screen.dart';
 
@@ -15,7 +15,7 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
           child: Text(
-            "Women",
+            "Olshop",
             style: Theme.of(context)
                 .textTheme
                 .headline5

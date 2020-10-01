@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:submission_flutter/models/Product.dart';
-
-import '../../../constants.dart';
+import 'package:submission_flutter/constant/constants.dart';
 
 class ProductTitleWithImage extends StatelessWidget {
   const ProductTitleWithImage({
@@ -19,7 +18,7 @@ class ProductTitleWithImage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            "Aristocratic Hand Bag",
+            "Shoes",
             style: TextStyle(color: Colors.white),
           ),
           Text(
